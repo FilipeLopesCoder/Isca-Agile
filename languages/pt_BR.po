@@ -1,0 +1,82 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pt_BR\n"
+"POT-Creation-Date: 2015-11-25 17:06-0200\n"
+"PO-Revision-Date: 2015-11-25 17:07-0200\n"
+"Last-Translator: \n"
+"Language-Team: filipelopescoder@gmail.com\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: af-iscas-agl.php\n"
+"X-Poedit-SearchPath-1: af-iscas-options.php\n"
+
+#: af-iscas-agl.php:67
+msgid "Name"
+msgstr "Nome"
+
+#: af-iscas-agl.php:75
+msgid "Email"
+msgstr "Email"
+
+#: af-iscas-agl.php:83
+msgid "Send"
+msgstr "Enviar"
+
+#: af-iscas-options.php:42
+msgid "Como funciona?"
+msgstr ""
+
+#: af-iscas-options.php:43
+msgid "Basta adcionar o shortcode onde desejar que apareça a isca:"
+msgstr ""
+
+#: af-iscas-options.php:44
+msgid "Configurações"
+msgstr ""
+
+#: af-iscas-options.php:44
+msgid ""
+"Para que a inscrição funcione primeiro é preciso inserir os dados do "
+"formulário criado no agile"
+msgstr ""
+
+#: af-iscas-options.php:45
+msgid ""
+"Se preferir, pode inserir aqui um title para a isca ou inserir diretamente "
+"para o shortcode. Ex: [af_isca title=\"Isca do Agile\"]"
+msgstr ""
+
+#: af-iscas-options.php:52
+msgid "Informações do cliente"
+msgstr ""
+
+#: af-iscas-options.php:81
+msgid "Layout</h3></th>"
+msgstr ""
+
+#: af-iscas-options.php:83
+msgid "Cor padrao dos componentes:"
+msgstr ""
+
+#: af-iscas-options.php:87
+msgid "Background:"
+msgstr ""
+
+#: af-iscas-options.php:97
+msgid "Conteudo</h3></th>"
+msgstr ""
+
+#: af-iscas-options.php:99
+msgid "title_isca:"
+msgstr ""
+
+#: af-iscas-options.php:104
+msgid "text_isca"
+msgstr ""
