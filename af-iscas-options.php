@@ -1,6 +1,5 @@
 <?php
 // create custom plugin settings menu
-
 add_action('admin_menu', 'af_create_menu_agl');
 function af_create_menu_agl() {
 
@@ -52,9 +51,7 @@ jQuery(document).ready(function($){
         <tr><th><h3><?php _e('Informações do cliente'); ?></h3></th></tr>
         <tr valign="top">
         <th scope="row">Domain Action Form: </th>
-        <td><!-- <input type="text" name="domain_action_form" value="<?php echo esc_attr( get_option('domain_action_form') ); ?>" />
-            <input type="text" name="domain_action_form" value="<?php echo esc_attr( get_option('domain_action_form') ); ?>" class="my-color-field" data-default-color="#effeff" /> -->
-            <input type="text" name="domain_action_form" value="<?php echo esc_attr( get_option('domain_action_form') ); ?>" /></td>
+        <td><input type="text" name="domain_action_form" value="<?php echo esc_attr( get_option('domain_action_form') ); ?>" /></td>
         </tr>
         <tr valign="top">
             <td scope="row">agile_form_name</td>
@@ -81,23 +78,20 @@ jQuery(document).ready(function($){
         <tr><th><h3><?php _e('Layout</h3></th>'); ?></tr>
         <tr valign="top">
         <th scope="row"><?php _e('Cor padrao dos componentes:'); ?></th>
-        <td><!-- <input type="text" name="Cor_padrao" value="<?php echo esc_attr( get_option('Cor_padrao') ); ?>" /> -->
+        <td>
             <input type="text" name="Cor_padrao" value="<?php echo esc_attr( get_option('Cor_padrao') ); ?>" class="wp-color-picker-field" data-default-color="transparent" /></td>
         </tr>
         <th scope="row"><?php _e('Background:'); ?></th>
-        <td><!-- <input type="text" name="Background" value="<?php echo esc_attr( get_option('Background') ); ?>" /> -->
+        <td>
             <input type="text" name="Background" value="<?php echo esc_attr( get_option('Background') ); ?>" class="wp-color-picker-field" data-default-color="transparent" /></td>
         </tr>
-        <!--<tr valign="top">
-            <td scope="row">text_isca</td>
-            <td><input type="text" name="text_isca" value="<?php echo esc_attr( get_option('text_isca') ); ?>" /></td>
-        </tr>-->
+
         <tr><th>&nbsp;</th></tr>
 
         <tr><th><h3><?php _e('Conteudo</h3></th>'); ?></tr>
         <tr valign="top">
         <th scope="row"><?php _e('title_isca:'); ?></th>
-        <td><!-- <input type="text" name="title_isca" value="<?php echo esc_attr( get_option('title_isca') ); ?>" /> -->
+        <td>
             <input type="text" name="title_isca" value="<?php echo esc_attr( get_option('title_isca') ); ?>" /></td>
         </tr>
         <tr valign="top">

@@ -25,15 +25,9 @@ add_action( 'plugins_loaded', 'af_i_agl_load_textdomain' );
 
 //----------------------------------------------------//
 //Função que cria o shortcode a pagina de layout da isca
-//[af_isca id="" name="" title="Cadastre-se para receber as melhores soluções para sua empresa e uso da Fibra Ótiptica."]
-//Campo nome = classes: cont_txt_nome, txt_nome
-//Campo email = classes: cont_txt_email, txt_email
-//Isca menor = Fase 1
 
 function inclui_layout_i_agl($attrs, $content){
 	extract( shortcode_atts( array(
-		//'id' => '',
-		//'name' => '',
     'agile_form_name' => esc_attr( get_option('agile_form_name') ),
     'agile_domain' => esc_attr( get_option('agile_domain') ),
     'agile_api' => esc_attr( get_option('agile_api') ),
@@ -95,7 +89,8 @@ document.forms["agile-form"].onsubmit=function(e){e.preventDefault();_agile_sync
 -->
 ';
   
-    include('af-iscas-layout.php');
+  //Inclui o "CSS"
+  include('af-iscas-layout.php');
 
   if( $custom_content != '' ){
     $content .= $custom_content;
